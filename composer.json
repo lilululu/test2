@@ -1,0 +1,27 @@
+{
+    "name": "meilu/test2",
+    "description": "this is my second test",
+    "type": "library",
+    "require": {
+        "php": ">=7.0.30"
+    },
+    "require-dev": {
+        "monolog/monolog": "1.0"
+    },
+    "authors": [
+        {
+            "name": "meilu",
+            "email": "2841502399@qq.com"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload":{
+
+        "psr-4":{
+
+            "src\\":"src/"
+        }
+
+    }
+}
